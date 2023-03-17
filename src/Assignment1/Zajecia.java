@@ -12,6 +12,14 @@ public class Zajecia {
         this.Studenci = new ArrayList<String>();
     }
 
+    public ArrayList<String> getStudenci() {
+        return Studenci;
+    }
+
+    public void setStudenci(ArrayList<String> studenci) {
+        Studenci = studenci;
+    }
+
     public void zapiszStudenta(String imieStudenta){
         if (Studenci.size() >= 10) {
             System.out.println("Brak miejsc.");

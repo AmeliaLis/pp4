@@ -9,7 +9,7 @@ public class Main {
         System.out.println(Zadanie1.CalculateNetto(150.0, 0.17));
 
         //ex. 2
-        Zadanie2.FifoExample();
+        //Zadanie2.FifoExample();
 
         //ex. 3
         Zadanie3.WriteLine("HELLO WORLD", "src\\Assignment1\\plik.txt");
