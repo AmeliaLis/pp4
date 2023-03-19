@@ -12,8 +12,8 @@ public class Main {
         //Zadanie2.FifoExample();
 
         //ex. 3
-        Zadanie3.WriteLine("HELLO WORLD", "src\\Assignment1\\plik.txt");
-        Zadanie3.WriteLine("GOOD BYE EVERYBODY", "src\\Assignment1\\plik.txt");
+        Zadanie3.WriteLine("HELLO WORLD");
+        Zadanie3.WriteLine("GOOD BYE EVERYBODY");
 
         //ex. 4
         Zajecia zajecia1 = new Zajecia("Pracownia programowania 4", 30);

@@ -2,7 +2,7 @@ package Assignment1;
 import java.util.LinkedList;
 
 public class Zadanie2 {
-    LinkedList<String> fifoExample;
+    public LinkedList<String> fifoExample;
     public Zadanie2() {
         this.fifoExample = new LinkedList<String>();
     }
@@ -13,9 +13,5 @@ public class Zadanie2 {
 
     public void pollFromFifo(){
         this.fifoExample.poll();
-    }
-
-    public String getFirst(){
-        return this.fifoExample.getFirst();
     }
 }

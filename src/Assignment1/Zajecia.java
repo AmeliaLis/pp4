@@ -3,9 +3,9 @@ package Assignment1;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 public class Zajecia {
-    String nazwaPrzedmiotu;
-    int liczbaGodzin;
-    ArrayList<String> Studenci;
+    public String nazwaPrzedmiotu;
+    public int liczbaGodzin;
+    public ArrayList<String> Studenci;
     public Zajecia(String nazwaPrzedmiotu, int liczbaGodzin){
         this.nazwaPrzedmiotu = nazwaPrzedmiotu;
         this.liczbaGodzin = liczbaGodzin;
